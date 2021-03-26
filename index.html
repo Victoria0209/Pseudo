@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <h1>Виды псевдоклассов</h1>
+
+    <div>
+        <h2>18. Псевдокласс :hover</h2>
+        <p class="h2__p">Меняю цвет при наведении</p>
+    </div>
+
+    <div>
+        <h2>19. Псевдоклассы :last-of-type, :first-of-type, :first-child, :last-child, :nth-child()</h2>
+        <section class="section1">
+            <p>Я :first-child </p>
+            <p>Я могу быть :nth-child()</p>
+            <p>Я могу быть :nth-child()</p>
+            <p>Я могу быть :nth-child()</p>
+            <p> 
+                Я :last-child
+                <a>Я :first-of-type </a>
+                <a>Я :last-of-type </a>
+            </p>
+        </section>
+    </div>
+
+    <div>
+        <h2>20. Псевдокласс :not ()</h2>
+        <ul class="h2__ul">
+            <li class="li1">Я класс li</li>
+            <li class="li1">Я класс li</li>
+            <li class="li1">Я класс li</li>
+            <li class="li2">Я не класс li</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>21. Псевдоэлементы ::before, ::after</h2>
+        <p class="before"> У меня есть псевдокласс before</p>
+        <p class="after"> У меня есть псевдокласс after</p>
+    </div>
+
 </body>
+
 </html>
