@@ -5,6 +5,46 @@ div {
     padding: 5px;
 }
 
+.link:link {
+    color: black;
+}
+
+.visited:visited {
+    color: #cccccc;
+}
+
+.active:active {
+    color: green;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: rgba(136, 30, 16, 0.493);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 0;
+    border-bottom: 4px solid rgba(136, 30, 16, 0.575);
+    border-right: 4px solid rgba(136, 30, 16, 0.575);
+}
+
+.btn:hover {
+    background-color: rgba(134, 58, 46, 0.596);
+    border-bottom: 4px solid rgba(131, 73, 64, 0.466);
+    border-right: 4px solid rgba(131, 73, 64, 0.466);
+}
+
+.btn:active {
+    border-bottom: 0;
+    border-right: 0;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
 .h2__p:hover {
     color: rgba(234, 0, 255, 0.808);
 }
@@ -38,14 +78,14 @@ div {
     color: teal;
 }
 
-.before::before{
+.before::before {
     content: "It's me";
     color: tomato;
     padding-left: 5px;
     font-style: italic;
 }
 
-.after::after{
+.after::after {
     content: "It's me";
     color: rgb(71, 255, 86);
     padding-left: 5px;
